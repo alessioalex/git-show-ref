@@ -1,6 +1,6 @@
 {
   "name": "git-show-ref",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "List the references from the local repository in a Node streamy way (by shelling out to git-show-ref(1)).",
   "main": "index.js",
   "dependencies": {
