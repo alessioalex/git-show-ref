@@ -2,6 +2,8 @@
 
 List the references from the local repository in a Node streamy way (by shelling out to [git-show-ref(1)](http://git-scm.com/docs/git-show-ref)).
 
+[![build status](https://secure.travis-ci.org/alessioalex/git-show-ref.png)](http://travis-ci.org/alessioalex/git-show-ref)
+
 ## Usage
 
 `gitShowRef(repoPath[, options])` - where options can have 2 properties: `tags` and `heads` (both boolean).
