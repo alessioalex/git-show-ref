@@ -4,6 +4,8 @@ List the references from the local repository in a Node streamy way (by shelling
 
 ## Usage
 
+`gitShowRef(repoPath[, options])` - where options can have 2 properties: `tags` and `heads` (both boolean).
+
 ```js
 var gitShowRef = require('git-show-ref');
 var path = require('path');
