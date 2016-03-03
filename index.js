@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var gitSpawnedStream = require('git-spawned-stream');
 var streamingParser = require('./lib/parser');

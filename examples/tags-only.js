@@ -1,4 +1,5 @@
-"use strict";
+/* eslint-disable func-names, no-console */
+'use strict';
 
 var gitShowRef = require('../');
 var path = require('path');
@@ -11,6 +12,6 @@ gitShowRef(repoPath, {
 }).on('error', function(err) {
   throw err;
 }).on('end', function() {
-  console.log("\n-----------------");
-  console.log("That's all folks!");
+  console.log('\n-----------------');
+  console.log('That\'s all folks!');
 });

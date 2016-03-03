@@ -1,7 +1,7 @@
-"use strict";
+/* eslint-disable func-names */
+'use strict';
 
-var proxyquire = require('proxyquire');
-var should = require('should');
+require('should');
 var fs = require('fs');
 
 var streamingParser = require('../lib/parser');
